@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Welcome to Task Manager</h1>
+    <div id="app">
+        <h2>Task Manager App</h2>
+    <form id="task-form">
+        <input type="text" id="title" placeholder="Task Title">
+        <textarea id="description" placeholder="Task Description"></textarea>
+        <button type="submit">Create Task</button>
+    </form>
+    <div id="task-list"></div>
+    </div>
+    <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
